@@ -1,23 +1,75 @@
 aid: blooma
+
 name: Blooma
-description: 'Blooma is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Blooma is an AI‑powered commercial real‑estate (CRE) lending platform that provides data‑driven origination, portfolio intelligence, and workflow automation solutions for lenders. The company helps lenders make faster, data‑driven decisions, monitor portfolios with real‑time alerts, and integrate data sources to streamline CRE lending operations.'
+
 url: https://raw.githubusercontent.com/api-evangelist/blooma/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-29 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-29'
+
 modified: '2026-09-29'
+
 tags:
 - Company
-apis: []
+- AI
+- Commercial Real Estate
+- Lending
+- Data Automation
+- Portfolio Management
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/blooma-hosts.yml
+- type: Vendors
+  url: vendors/blooma-vendors.yml
+- type: TermsOfService
+  url: https://www.blooma.ai/terms-of-service
+- type: Support
+  url: https://help.blooma.ai/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.blooma.ai/privacy-policy
+- type: Pricing
+  url: https://www.blooma.ai/plans
+- type: Blog
+  url: https://www.blooma.ai/blog
+- type: GettingStarted
+  url: https://help.blooma.ai/hc/en-us/categories/360003482493-Getting-Started
+- type: Documentation
+  url: https://help.blooma.ai/
+- type: DomainSecurity
+  url: security/blooma-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.blooma.ai
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Blooma provides a help center but no machine‑readable API spec was found.
+  evidence:
+    - url: https://api.blooma.ai/openapi.json
+      status: 404
+  checked: '2026-09-29'
+x-enrichment:
+  date: '2026-09-29'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
