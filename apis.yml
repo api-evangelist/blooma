@@ -41,6 +41,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Plans
+  url: plans/blooma-plans-pricing.yml
 - url: https://www.blooma.ai/blog/rss.xml
   type: BlogRSS
 - type: Hosts
