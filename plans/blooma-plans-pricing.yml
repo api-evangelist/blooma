@@ -1,0 +1,33 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.blooma.ai/plans
+sources:
+- https://www.blooma.ai/plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Blooma Pro
+published: false
+note: No numeric price is published on the pricing page; Two tiers described by team size and origination
+  volume; no numeric prices shown, only 'LEARN MORE'/'TALK TO SALES' CTAs. The $500M figures are eligibility
+  thresholds, not prices.
+plan_count: 2
+plans:
+- name: Blooma Pro
+  price_text: LEARN MORE
+  period: none
+  included_quota: Team Size <4, Annual Originations < $500M, Loan Origination Document Parsing with Limited
+    Licenses & Deal Flow, 3rd Party Data Integration, Access to Blooma Customer Support Team
+- name: Blooma Enterprise
+  price_text: TALK TO SALES
+  period: none
+  included_quota: Team Size >4, Annual Originations >$500M, Loan Origination & Portfolio Monitoring, Unlimited
+    Licenses & Document Parsing, Dedicated Customer Support
