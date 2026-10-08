@@ -31,3 +31,23 @@ plans:
   period: none
   included_quota: Team Size >4, Annual Originations >$500M, Loan Origination & Portfolio Monitoring, Unlimited
     Licenses & Document Parsing, Dedicated Customer Support
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Blooma Pro
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Blooma Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
